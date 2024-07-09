@@ -1,0 +1,21 @@
+{
+  "name": "vite-print-urls",
+  "author": "stagas",
+  "version": "1.0.0",
+  "description": "Print urls on HMR or reload with a QR code for the network",
+  "license": "AGPLv3",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo ok"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.2",
+    "ambient-dts": "github:stagas/ambient-dts"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "running-at": "^0.3.22",
+    "vite": "^5.3.3"
+  }
+}
